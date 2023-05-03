@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://d4ldtjopjymtq"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_6gjx3"]
+[ext_resource type="PackedScene" uid="uid://yhmgl7cl4nm0" path="res://游戏场景/游戏开始场景/Enter_Scene.tscn" id="1_ystir"]
+
+[node name="main" type="Node"]
+script = ExtResource("1_6gjx3")
+
+[node name="Enter_Scene" parent="." instance=ExtResource("1_ystir")]
+
+[connection signal="game_start" from="Enter_Scene" to="." method="_on_enter_scene_game_start"]

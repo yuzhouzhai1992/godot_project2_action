@@ -1,0 +1,272 @@
+[gd_scene load_steps=54 format=3 uid="uid://breipjh08pybj"]
+
+[ext_resource type="Script" path="res://游戏场景/角色类场景/远程弓箭手/远程弓箭手.gd" id="1_arbdf"]
+[ext_resource type="Texture2D" uid="uid://cgqnrh4jywbev" path="res://游戏素材资源/远程怪物/2_atk/2_atk_1.png" id="1_tkp6h"]
+[ext_resource type="Texture2D" uid="uid://bfs8x5c3niav3" path="res://游戏素材资源/远程怪物/2_atk/2_atk_2.png" id="2_hk5l2"]
+[ext_resource type="Texture2D" uid="uid://fbqh6og0lsvv" path="res://游戏素材资源/远程怪物/2_atk/2_atk_3.png" id="3_3iwfm"]
+[ext_resource type="Texture2D" uid="uid://cnoswle6p2w3y" path="res://游戏素材资源/远程怪物/2_atk/2_atk_4.png" id="4_7iy2j"]
+[ext_resource type="Texture2D" uid="uid://dhhv0g4vk6j33" path="res://游戏素材资源/远程怪物/2_atk/2_atk_5.png" id="5_nog6w"]
+[ext_resource type="Texture2D" uid="uid://cdd4o2v0kdb20" path="res://游戏素材资源/远程怪物/2_atk/2_atk_6.png" id="6_5dnt5"]
+[ext_resource type="Texture2D" uid="uid://dnckn7uy0uj6l" path="res://游戏素材资源/远程怪物/2_atk/2_atk_7.png" id="7_fgawb"]
+[ext_resource type="Texture2D" uid="uid://hatej28v1agl" path="res://游戏素材资源/远程怪物/2_atk/2_atk_8.png" id="8_2mqps"]
+[ext_resource type="Texture2D" uid="uid://o3djfhexikk7" path="res://游戏素材资源/远程怪物/2_atk/2_atk_9.png" id="9_nueni"]
+[ext_resource type="Texture2D" uid="uid://hmj6xpmf7210" path="res://游戏素材资源/远程怪物/2_atk/2_atk_10.png" id="10_g065s"]
+[ext_resource type="Texture2D" uid="uid://diw4fn8axf2ne" path="res://游戏素材资源/远程怪物/2_atk/2_atk_11.png" id="11_0jq8i"]
+[ext_resource type="Texture2D" uid="uid://dwsowovmcml7r" path="res://游戏素材资源/远程怪物/2_atk/2_atk_12.png" id="12_hdpqf"]
+[ext_resource type="Texture2D" uid="uid://byfy5waxucxwf" path="res://游戏素材资源/远程怪物/2_atk/2_atk_13.png" id="13_vuc1l"]
+[ext_resource type="Texture2D" uid="uid://bhkg6ghriy5im" path="res://游戏素材资源/远程怪物/2_atk/2_atk_14.png" id="14_oauj6"]
+[ext_resource type="Texture2D" uid="uid://d1gyfimx2wbe1" path="res://游戏素材资源/远程怪物/2_atk/2_atk_15.png" id="15_utdsx"]
+[ext_resource type="Texture2D" uid="uid://bn6es2ak2ijup" path="res://游戏素材资源/远程怪物/death/death_1.png" id="16_altao"]
+[ext_resource type="Texture2D" uid="uid://co75665g1nuh1" path="res://游戏素材资源/远程怪物/death/death_2.png" id="17_my05e"]
+[ext_resource type="Texture2D" uid="uid://by7sqbssrt2wn" path="res://游戏素材资源/远程怪物/death/death_3.png" id="18_gmt4f"]
+[ext_resource type="Texture2D" uid="uid://cm4wmx1qlr6vg" path="res://游戏素材资源/远程怪物/death/death_4.png" id="19_d8p74"]
+[ext_resource type="Texture2D" uid="uid://b30g5tadky4en" path="res://游戏素材资源/远程怪物/death/death_5.png" id="20_bvknw"]
+[ext_resource type="Texture2D" uid="uid://t1s8tigic78f" path="res://游戏素材资源/远程怪物/death/death_6.png" id="21_7rabi"]
+[ext_resource type="Texture2D" uid="uid://drgxla4bouabo" path="res://游戏素材资源/远程怪物/death/death_7.png" id="22_nlpb6"]
+[ext_resource type="Texture2D" uid="uid://duu4fqkens1dx" path="res://游戏素材资源/远程怪物/death/death_8.png" id="23_fb8mg"]
+[ext_resource type="Texture2D" uid="uid://cfisas4v61w1s" path="res://游戏素材资源/远程怪物/death/death_9.png" id="24_511il"]
+[ext_resource type="Texture2D" uid="uid://bo42xqkiblw4j" path="res://游戏素材资源/远程怪物/death/death_10.png" id="25_vanxl"]
+[ext_resource type="Texture2D" uid="uid://bnmo2ebubfuv3" path="res://游戏素材资源/远程怪物/death/death_11.png" id="26_dvvcx"]
+[ext_resource type="Texture2D" uid="uid://tg0ulak7c5lr" path="res://游戏素材资源/远程怪物/death/death_12.png" id="27_52xl0"]
+[ext_resource type="Texture2D" uid="uid://c6lr15446tee1" path="res://游戏素材资源/远程怪物/run/run_1.png" id="28_6585v"]
+[ext_resource type="Texture2D" uid="uid://b33m86gkn7cfe" path="res://游戏素材资源/远程怪物/run/run_2.png" id="29_7cead"]
+[ext_resource type="Texture2D" uid="uid://bnl2akeeln8q" path="res://游戏素材资源/远程怪物/run/run_3.png" id="30_bbjn7"]
+[ext_resource type="Texture2D" uid="uid://biqo1u0hfwk1w" path="res://游戏素材资源/远程怪物/run/run_4.png" id="31_ovn0f"]
+[ext_resource type="Texture2D" uid="uid://d0e0bxudhthfx" path="res://游戏素材资源/远程怪物/run/run_5.png" id="32_oov7j"]
+[ext_resource type="Texture2D" uid="uid://b67ny3er0tm45" path="res://游戏素材资源/远程怪物/run/run_6.png" id="33_48upk"]
+[ext_resource type="Texture2D" uid="uid://bi1d820xbc7co" path="res://游戏素材资源/远程怪物/run/run_7.png" id="34_5kg0j"]
+[ext_resource type="Texture2D" uid="uid://dxycqac760pmq" path="res://游戏素材资源/远程怪物/run/run_8.png" id="35_ysc5w"]
+[ext_resource type="Texture2D" uid="uid://bkr0i3yq6pcba" path="res://游戏素材资源/远程怪物/run/run_9.png" id="36_7suwr"]
+[ext_resource type="Texture2D" uid="uid://ld1d66oqayry" path="res://游戏素材资源/远程怪物/run/run_10.png" id="37_e1wnu"]
+[ext_resource type="Texture2D" uid="uid://bv3p8k1ptlsbq" path="res://游戏素材资源/远程怪物/take_hit/take_hit_1.png" id="38_33ysv"]
+[ext_resource type="Texture2D" uid="uid://bx170g7bdykwy" path="res://游戏素材资源/远程怪物/take_hit/take_hit_2.png" id="39_8uj8v"]
+[ext_resource type="Texture2D" uid="uid://dgnnofaisp6af" path="res://游戏素材资源/远程怪物/take_hit/take_hit_3.png" id="40_1sm3q"]
+[ext_resource type="Texture2D" uid="uid://dtwy3lkm2rk7c" path="res://游戏素材资源/远程怪物/take_hit/take_hit_4.png" id="41_xfbum"]
+[ext_resource type="Texture2D" uid="uid://dqvealmjx21mu" path="res://游戏素材资源/远程怪物/take_hit/take_hit_5.png" id="42_y8xjl"]
+[ext_resource type="Texture2D" uid="uid://p85rjoi2bej0" path="res://游戏素材资源/远程怪物/take_hit/take_hit_6.png" id="43_sja80"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/远程弓箭手/monster_archman_FSM.gd" id="45_y4m57"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/远程弓箭手/Run.gd" id="46_1mxcm"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/远程弓箭手/Take_hit.gd" id="47_iq638"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/远程弓箭手/Attack1.gd" id="47_xigda"]
+[ext_resource type="AudioStream" uid="uid://dcksfwija7aft" path="res://游戏素材资源/角色/take_hit.mp3" id="48_hvecp"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/远程弓箭手/Attack2.gd" id="48_t0qgp"]
+[ext_resource type="AudioStream" uid="uid://dysptcjnua3ue" path="res://游戏素材资源/远程怪物/attack.mp3" id="51_hyfcx"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v42oh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_tkp6h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_hk5l2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_3iwfm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7iy2j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_nog6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_5dnt5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_fgawb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_2mqps")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_nueni")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_g065s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_0jq8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_hdpqf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_vuc1l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_oauj6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_utdsx")
+}],
+"loop": false,
+"name": &"ATK",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_altao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_my05e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_gmt4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_d8p74")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_bvknw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_7rabi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_nlpb6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_fb8mg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_511il")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_vanxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_dvvcx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_52xl0")
+}],
+"loop": false,
+"name": &"death",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_6585v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_7cead")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_bbjn7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_ovn0f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_oov7j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_48upk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_5kg0j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_ysc5w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_7suwr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_e1wnu")
+}],
+"loop": true,
+"name": &"run",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("38_33ysv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_8uj8v")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_1sm3q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_xfbum")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_y8xjl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_sja80")
+}],
+"loop": false,
+"name": &"take_hit",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ihrpw"]
+size = Vector2(29, 46)
+
+[node name="远程弓箭手" type="CharacterBody2D"]
+script = ExtResource("1_arbdf")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_v42oh")
+animation = &"ATK"
+autoplay = "run"
+offset = Vector2(0, -40)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 0)
+shape = SubResource("RectangleShape2D_ihrpw")
+
+[node name="RightDownCast" type="RayCast2D" parent="."]
+position = Vector2(20, 0)
+
+[node name="LeftDownCast2" type="RayCast2D" parent="."]
+position = Vector2(-20, 0)
+
+[node name="RightATK" type="Node2D" parent="."]
+position = Vector2(18, -10)
+
+[node name="LeftATK" type="Node2D" parent="."]
+position = Vector2(-18, -10)
+
+[node name="RightATKCheck" type="RayCast2D" parent="."]
+position = Vector2(0, -5)
+target_position = Vector2(100, 0)
+
+[node name="LeftATKCheck" type="RayCast2D" parent="."]
+position = Vector2(0, -5)
+target_position = Vector2(-100, 0)
+
+[node name="SFM" type="Node" parent="."]
+script = ExtResource("45_y4m57")
+
+[node name="Run" type="Node" parent="SFM"]
+script = ExtResource("46_1mxcm")
+
+[node name="Attack1" type="Node" parent="SFM"]
+script = ExtResource("47_xigda")
+
+[node name="Attack2" type="Node" parent="SFM"]
+script = ExtResource("48_t0qgp")
+
+[node name="Take_hit" type="Node" parent="SFM"]
+script = ExtResource("47_iq638")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="Audio" type="Node2D" parent="."]
+
+[node name="take_hit" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("48_hvecp")
+
+[node name="Attack" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("51_hyfcx")
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="SFM/Attack1" method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="animation_finished" from="AnimatedSprite2D" to="SFM/Attack2" method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="animation_finished" from="AnimatedSprite2D" to="SFM/Take_hit" method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="frame_changed" from="AnimatedSprite2D" to="SFM/Attack1" method="_on_animated_sprite_2d_frame_changed"]
+[connection signal="frame_changed" from="AnimatedSprite2D" to="SFM/Attack2" method="_on_animated_sprite_2d_frame_changed"]

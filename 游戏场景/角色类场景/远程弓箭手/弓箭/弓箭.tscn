@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://c6eqparh5y1e4"]
+
+[ext_resource type="Texture2D" uid="uid://c0b3sn3avco0k" path="res://游戏素材资源/远程怪物/projectiles_and_effects/arrow/arrow_.png" id="1_3j2ag"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/远程弓箭手/弓箭/弓箭.gd" id="1_mjb33"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_6l6pn"]
+size = Vector2(11.5, 3)
+
+[node name="弓箭" type="Area2D"]
+script = ExtResource("1_mjb33")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_3j2ag")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(11, -1)
+shape = SubResource("RectangleShape2D_6l6pn")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 5.0
+autostart = true
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

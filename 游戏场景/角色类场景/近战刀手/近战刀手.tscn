@@ -1,0 +1,433 @@
+[gd_scene load_steps=70 format=3 uid="uid://etb242sqqth3"]
+
+[ext_resource type="Script" path="res://游戏场景/角色类场景/近战刀手/近战刀手.gd" id="1_nj184"]
+[ext_resource type="Texture2D" uid="uid://b2m3ea0d3l2wm" path="res://游戏素材资源/近战怪物/05_1_atk/1_atk_1.png" id="1_y17u0"]
+[ext_resource type="Texture2D" uid="uid://ds6km6apyvrlj" path="res://游戏素材资源/近战怪物/05_1_atk/1_atk_2.png" id="2_dbd7n"]
+[ext_resource type="Texture2D" uid="uid://kab5rtd8m3xu" path="res://游戏素材资源/近战怪物/05_1_atk/1_atk_3.png" id="3_k2te2"]
+[ext_resource type="Texture2D" uid="uid://b7kksdapm8rax" path="res://游戏素材资源/近战怪物/05_1_atk/1_atk_4.png" id="4_1fit2"]
+[ext_resource type="Texture2D" uid="uid://g2y6yrowh51h" path="res://游戏素材资源/近战怪物/05_1_atk/1_atk_5.png" id="5_a20ov"]
+[ext_resource type="Texture2D" uid="uid://u7d0p4qj12em" path="res://游戏素材资源/近战怪物/05_1_atk/1_atk_6.png" id="6_nht0s"]
+[ext_resource type="Texture2D" uid="uid://b4m366fncywxw" path="res://游戏素材资源/近战怪物/05_1_atk/1_atk_7.png" id="7_ljmdo"]
+[ext_resource type="Texture2D" uid="uid://cvvvbg3y7jb1q" path="res://游戏素材资源/近战怪物/05_1_atk/1_atk_8.png" id="8_t1b7h"]
+[ext_resource type="Texture2D" uid="uid://cbnrjjbepn3is" path="res://游戏素材资源/近战怪物/05_1_atk/1_atk_9.png" id="9_4q4v2"]
+[ext_resource type="Texture2D" uid="uid://b1e1ewt2np12a" path="res://游戏素材资源/近战怪物/05_1_atk/1_atk_10.png" id="10_feqch"]
+[ext_resource type="Texture2D" uid="uid://bv0remnk845ds" path="res://游戏素材资源/近战怪物/05_1_atk/1_atk_11.png" id="11_a4dca"]
+[ext_resource type="Texture2D" uid="uid://dxrcglto5ijfo" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_1.png" id="12_67qym"]
+[ext_resource type="Texture2D" uid="uid://d3gn1alcutssi" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_2.png" id="13_7cqta"]
+[ext_resource type="Texture2D" uid="uid://dmbe1jodmn6px" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_3.png" id="14_valt4"]
+[ext_resource type="Texture2D" uid="uid://diataqcd1hm6m" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_4.png" id="15_00vs3"]
+[ext_resource type="Texture2D" uid="uid://b3sa3smydub1p" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_5.png" id="16_1ec1x"]
+[ext_resource type="Texture2D" uid="uid://7px3rocd212s" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_6.png" id="17_1enpr"]
+[ext_resource type="Texture2D" uid="uid://cax1gewj8f7lg" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_7.png" id="18_ge3fj"]
+[ext_resource type="Texture2D" uid="uid://68a3des20ia7" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_8.png" id="19_qyisy"]
+[ext_resource type="Texture2D" uid="uid://cick4ekte86il" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_9.png" id="20_armyc"]
+[ext_resource type="Texture2D" uid="uid://bwbc3nm3ojh6w" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_10.png" id="21_iq5o4"]
+[ext_resource type="Texture2D" uid="uid://chq8ly5oycqy1" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_11.png" id="22_nikt8"]
+[ext_resource type="Texture2D" uid="uid://ckparcod4hs4w" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_12.png" id="23_0i7ri"]
+[ext_resource type="Texture2D" uid="uid://hmsdymep5bc" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_13.png" id="24_kcp64"]
+[ext_resource type="Texture2D" uid="uid://oke4s6wimyhm" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_14.png" id="25_ecoyo"]
+[ext_resource type="Texture2D" uid="uid://b3ab0gcrem6w6" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_15.png" id="26_2anfr"]
+[ext_resource type="Texture2D" uid="uid://phe820mtha58" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_16.png" id="27_qevcp"]
+[ext_resource type="Texture2D" uid="uid://bu1104p2p836l" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_17.png" id="28_to0cx"]
+[ext_resource type="Texture2D" uid="uid://x682f6ce1wsb" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_18.png" id="29_sd54m"]
+[ext_resource type="Texture2D" uid="uid://dqrw1ssiy134l" path="res://游戏素材资源/近战怪物/06_2_atk/2_atk_19.png" id="30_c3gy8"]
+[ext_resource type="Texture2D" uid="uid://cff53r6c83hc1" path="res://游戏素材资源/近战怪物/11_death/death_1.png" id="31_m3lxi"]
+[ext_resource type="Texture2D" uid="uid://dyajsn7udsi0r" path="res://游戏素材资源/近战怪物/11_death/death_2.png" id="32_pvj51"]
+[ext_resource type="Texture2D" uid="uid://c4m2nwkm54dxh" path="res://游戏素材资源/近战怪物/11_death/death_3.png" id="33_ubwci"]
+[ext_resource type="Texture2D" uid="uid://x0vw28lk1d4o" path="res://游戏素材资源/近战怪物/11_death/death_4.png" id="34_s2ri4"]
+[ext_resource type="Texture2D" uid="uid://b5vikid53yope" path="res://游戏素材资源/近战怪物/11_death/death_5.png" id="35_1itig"]
+[ext_resource type="Texture2D" uid="uid://dy4o7h2i504ke" path="res://游戏素材资源/近战怪物/11_death/death_6.png" id="36_w0g47"]
+[ext_resource type="Texture2D" uid="uid://mo8yiwcrwi11" path="res://游戏素材资源/近战怪物/11_death/death_7.png" id="37_6771f"]
+[ext_resource type="Texture2D" uid="uid://dp4nqcp7d3esc" path="res://游戏素材资源/近战怪物/11_death/death_8.png" id="38_qm47i"]
+[ext_resource type="Texture2D" uid="uid://c3x2djcfkhvjw" path="res://游戏素材资源/近战怪物/11_death/death_9.png" id="39_lt812"]
+[ext_resource type="Texture2D" uid="uid://bxb62l6b1p6eu" path="res://游戏素材资源/近战怪物/11_death/death_10.png" id="40_mj1fd"]
+[ext_resource type="Texture2D" uid="uid://l01jv50iasv6" path="res://游戏素材资源/近战怪物/11_death/death_11.png" id="41_mfs4s"]
+[ext_resource type="Texture2D" uid="uid://btpshctoh6t65" path="res://游戏素材资源/近战怪物/11_death/death_12.png" id="42_1bwb7"]
+[ext_resource type="Texture2D" uid="uid://dq7h2jiq5ckp6" path="res://游戏素材资源/近战怪物/11_death/death_13.png" id="43_k4ev7"]
+[ext_resource type="Texture2D" uid="uid://dcbhfcr3nagnf" path="res://游戏素材资源/近战怪物/02_run/run_1.png" id="44_4imrv"]
+[ext_resource type="Texture2D" uid="uid://bxx48psuk42e8" path="res://游戏素材资源/近战怪物/02_run/run_2.png" id="45_p653u"]
+[ext_resource type="Texture2D" uid="uid://ciqq6cs6dfluu" path="res://游戏素材资源/近战怪物/02_run/run_3.png" id="46_tadmv"]
+[ext_resource type="Texture2D" uid="uid://clei5qo2lnru0" path="res://游戏素材资源/近战怪物/02_run/run_4.png" id="47_o6nt3"]
+[ext_resource type="Texture2D" uid="uid://ktfnvogb2aq7" path="res://游戏素材资源/近战怪物/02_run/run_5.png" id="48_rjb5u"]
+[ext_resource type="Texture2D" uid="uid://310bhj61j3m0" path="res://游戏素材资源/近战怪物/02_run/run_6.png" id="49_xfi7w"]
+[ext_resource type="Texture2D" uid="uid://dh0yha2mi7wsd" path="res://游戏素材资源/近战怪物/02_run/run_7.png" id="50_ecx70"]
+[ext_resource type="Texture2D" uid="uid://bfayp5k3giurr" path="res://游戏素材资源/近战怪物/02_run/run_8.png" id="51_6i07v"]
+[ext_resource type="Texture2D" uid="uid://iv0m21au0358" path="res://游戏素材资源/近战怪物/10_take_hit/take_hit_1.png" id="52_llcda"]
+[ext_resource type="Texture2D" uid="uid://c0ujibweuqqiu" path="res://游戏素材资源/近战怪物/10_take_hit/take_hit_2.png" id="53_6mfca"]
+[ext_resource type="Texture2D" uid="uid://dh5ydex8jkdm1" path="res://游戏素材资源/近战怪物/10_take_hit/take_hit_3.png" id="54_htfka"]
+[ext_resource type="Texture2D" uid="uid://ohhlrbnr2xym" path="res://游戏素材资源/近战怪物/10_take_hit/take_hit_4.png" id="55_h7iol"]
+[ext_resource type="Texture2D" uid="uid://bobfhhda61sic" path="res://游戏素材资源/近战怪物/10_take_hit/take_hit_5.png" id="56_xj0cv"]
+[ext_resource type="Texture2D" uid="uid://cg4jpvmbgvftd" path="res://游戏素材资源/近战怪物/10_take_hit/take_hit_6.png" id="57_todbu"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/近战刀手/状态机/状态管理器.gd" id="58_jlrkg"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/近战刀手/状态机/行走状态.gd" id="59_bg40b"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/近战刀手/状态机/攻击状态.gd" id="60_1d5oj"]
+[ext_resource type="Script" path="res://游戏场景/角色类场景/近战刀手/状态机/Take_hit.gd" id="62_x3360"]
+[ext_resource type="AudioStream" uid="uid://dcksfwija7aft" path="res://游戏素材资源/角色/take_hit.mp3" id="63_vpgqb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_v42oh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_y17u0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_dbd7n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_k2te2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1fit2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_a20ov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_nht0s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ljmdo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_t1b7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_4q4v2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_feqch")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_a4dca")
+}],
+"loop": false,
+"name": &"ATK1",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_67qym")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_7cqta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_valt4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_00vs3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_1ec1x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_1enpr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_ge3fj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_qyisy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_armyc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_iq5o4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_nikt8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_0i7ri")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_kcp64")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_ecoyo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_2anfr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_qevcp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_to0cx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_sd54m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_c3gy8")
+}],
+"loop": false,
+"name": &"ATK2",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("31_m3lxi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_pvj51")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_ubwci")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_s2ri4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_1itig")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_w0g47")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_6771f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_qm47i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_lt812")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_mj1fd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_mfs4s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_1bwb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_k4ev7")
+}],
+"loop": false,
+"name": &"Death",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("52_llcda")
+}, {
+"duration": 1.0,
+"texture": ExtResource("53_6mfca")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_htfka")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_h7iol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_xj0cv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_todbu")
+}],
+"loop": false,
+"name": &"Take_hit",
+"speed": 8.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("44_4imrv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_p653u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_tadmv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_o6nt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_rjb5u")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_xfi7w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_ecx70")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_6i07v")
+}],
+"loop": true,
+"name": &"run",
+"speed": 8.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ihrpw"]
+size = Vector2(26, 46)
+
+[sub_resource type="Animation" id="Animation_fms31"]
+resource_name = "攻击1"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"ATK1", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("FSM/Attack")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.6),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"attack1_check"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_8d70y"]
+resource_name = "攻击2"
+length = 2.0
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"ATK2", 1.0, false],
+"method": &"play"
+}]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("FSM/Attack")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.6, 1.4, 1.6, 1.7, 1.9),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1),
+"values": [{
+"args": [],
+"method": &"attack1_check"
+}, {
+"args": [],
+"method": &"attack2l_check"
+}, {
+"args": [],
+"method": &"attack2r_check"
+}, {
+"args": [],
+"method": &"attack2l_check"
+}, {
+"args": [],
+"method": &"attack2r_check"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_a0vuw"]
+resource_name = "走动"
+tracks/0/type = "method"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("AnimatedSprite2D")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [&"run", 1.0, false],
+"method": &"play"
+}]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_tkhnb"]
+_data = {
+"攻击1": SubResource("Animation_fms31"),
+"攻击2": SubResource("Animation_8d70y"),
+"走动": SubResource("Animation_a0vuw")
+}
+
+[node name="jinzhandaoshou" type="CharacterBody2D"]
+script = ExtResource("1_nj184")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_v42oh")
+animation = &"run"
+autoplay = "run"
+offset = Vector2(0, -40)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_ihrpw")
+
+[node name="RightDownCast" type="RayCast2D" parent="."]
+position = Vector2(20, 0)
+
+[node name="LeftDownCast2" type="RayCast2D" parent="."]
+position = Vector2(-20, 0)
+
+[node name="AttackCheck" type="Node2D" parent="."]
+
+[node name="A1" type="Area2D" parent="AttackCheck"]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AttackCheck/A1"]
+polygon = PackedVector2Array(23, 14, 65, 16, 69, -4, 64, -30, 50, -47, 29, -59, 0, -61, -15, -54, -26, -46, 14, -35, 30, -23, 32, -11, 29, -1)
+
+[node name="A2l" type="Area2D" parent="AttackCheck"]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AttackCheck/A2l"]
+polygon = PackedVector2Array(-32, 20, -45, 10, -52, -1, -49, -8, -43, -12, -34, -15, -26, -16, -11, -17, -5, -16, -7, 13, -17, 18)
+
+[node name="A2r" type="Area2D" parent="AttackCheck"]
+visible = false
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="AttackCheck/A2r"]
+polygon = PackedVector2Array(21, 9, 59, 12, 69, 7, 72, 0, 69, -8, 62, -15, 48, -22, 33, -26, 22, -28, 6, -30, -13, -31, -23, -30, -30, -28, -31, -25, -23, -19, 5, -10)
+
+[node name="FSM" type="Node" parent="."]
+script = ExtResource("58_jlrkg")
+
+[node name="Run" type="Node" parent="FSM"]
+script = ExtResource("59_bg40b")
+
+[node name="Attack" type="Node" parent="FSM"]
+script = ExtResource("60_1d5oj")
+
+[node name="Timer" type="Timer" parent="FSM/Attack"]
+wait_time = 0.25
+one_shot = true
+
+[node name="Take_hit" type="Node" parent="FSM"]
+script = ExtResource("62_x3360")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_tkhnb")
+}
+
+[node name="Audio" type="Node2D" parent="."]
+
+[node name="take_hit" type="AudioStreamPlayer" parent="Audio"]
+stream = ExtResource("63_vpgqb")
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="FSM/Attack" method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="animation_finished" from="AnimatedSprite2D" to="FSM/Take_hit" method="_on_animated_sprite_2d_animation_finished"]
